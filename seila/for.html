@@ -1,0 +1,88 @@
+<HTML>
+    <HEAD>
+     <TITLE>Curso de HTML - Formulário</TITLE>
+    </HEAD>
+    <BODY bgcolor="766f8c"> <center>
+     <FORM ACTION="processa.asp" METHOD="POST">
+     <TABLE>
+     <TR>
+     <TH>Digite seu nome:</TH> 
+    <TD><INPUT TYPE="Text" NAME="Nome" SIZE="25" MAXLENGTH="null"></TD>
+     </TR>
+     <TR>
+     <TH>Digite seu email:</TH>
+     <TD><INPUT TYPE="text" NAME="Email" SIZE="25" MAXLENGTH="null"></TD>
+     </tr>
+     <TR>
+     <TH>Digite sua idade:</TH>
+     <TD><INPUT TYPE="text" NAME="idade" SIZE="25" MAXLENGTH="3"></TD>
+     </tr>
+     <TR>
+        <TH>Coloque uma foto sua 3x4:</TH>
+        <TD><INPUT TYPE="FILE" NAME="foto"></TD>
+        </TR>
+        <TR>
+            <TH ALIGN="Right">Estado Civil:</TH>
+            <TD>
+            <SELECT NAME="ListBox" LISTBOX>
+            <OPTION>Casado</OPTION>
+            <OPTION SELECTED>Solteiro</OPTION>
+            <OPTION>Disquitado</OPTION>
+            <OPTION>Viúvo</OPTION>
+            </SELECT>
+            </TD>
+            </TR>
+            <TR>
+                    <th>Quais desses mavegadores de internet você conhece?</th>
+                    <TD>
+                    <INPUT TYPE="Checkbox" NAME="Chorme" VALUE="Sim">
+                      <label for="aaa">Google Chorme</label>
+                    <INPUT TYPE="Checkbox" NAME="fire" VALUE="Sim">
+                      <label for="aaa">Firefox</label>
+                    <INPUT TYPE="Checkbox" NAME="opera" VALUE="Sim">
+                      <label for="aaa">Opera</label>
+                      <INPUT TYPE="Checkbox" NAME="Brave" VALUE="Sim">
+                        <label for="aaa">Brave</label>
+                </TD>
+                </TR>
+                <TR>
+                  <th>Quais desses mavegadores de internet é o mais usado?</th>
+                  <TD>
+                  <INPUT TYPE="Checkbox" NAME="Chorme" VALUE="Sim">
+                    <label for="aaa">Google Chorme</label>
+                  <INPUT TYPE="Checkbox" NAME="edge" VALUE="Sim">
+                    <label for="aaa">Microsoft Edge</label>
+                  <INPUT TYPE="Checkbox" NAME="operag" VALUE="Sim">
+                    <label for="aaa">Opera GX</label>
+              </TD>
+              </TR>
+              <TR>
+                <th>Quais desses mavegadores de internet foi o primeiro?</th>
+                <TD>
+                <INPUT TYPE="Checkbox" NAME="Chorme" VALUE="Sim">
+                  <label for="aaa">Google Chorme</label>
+                <INPUT TYPE="Checkbox" NAME="ex" VALUE="Sim">
+                  <label for="aaa">Internet Explorer</label>
+                <INPUT TYPE="Checkbox" NAME="WWW" VALUE="Sim">
+                  <label for="aaa">WWW</label>
+            </TD>
+            </TR>
+                <FORM ACTION="processa.asp" METHOD="POST">
+                  <TABLE BORDER="0" CELLPADDING="2">
+                  <TR>
+                   <TH ALIGN="Right" VALIGN="top">Qual a função de um navegador?:</TH>
+                   <TD><TEXTAREA NAME="Sugestao:" COLS="30" ROWS="5"></TEXTAREA></TD>
+                  </TR>
+                  <TR>
+                   <TD>&nbsp;</TD>
+                   <TD>
+                   <INPUT TYPE="Reset" NAME="cmdLimpar" VALUE="Limpar">&nbsp;&nbsp;&nbsp;
+                   <INPUT TYPE="Submit" NAME="cmdEnvio" VALUE="Enviar">
+                   </TD>
+                  </TR>
+                  </TABLE>
+                  </FORM>
+
+              </center>
+     </body>
+</HTML>
